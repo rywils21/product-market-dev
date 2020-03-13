@@ -1,5 +1,5 @@
 import "../styles/index.css";
-import Layout from "../components/LayoutNav";
+import Layout from "../components/Layout";
 
 export default () => {
   return (
