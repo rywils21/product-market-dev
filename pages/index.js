@@ -1,7 +1,7 @@
 import "../styles/index.css";
 import { useState, useEffect } from "react";
 import { useSpring, animated } from "react-spring";
-import Layout from "../components/layout";
+import Layout from "../components/LayoutNav";
 
 export default () => {
   return (
