@@ -41,18 +41,18 @@ const routeConfig: RouteItem[] = [
       />
     )
   },
-  {
-    displayName: "Tutorials",
-    route: "/tutorials",
-    icon: (
-      <path
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        strokeWidth="2"
-        d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"
-      />
-    )
-  },
+  // {
+  //   displayName: "Tutorials",
+  //   route: "/tutorials",
+  //   icon: (
+  //     <path
+  //       strokeLinecap="round"
+  //       strokeLinejoin="round"
+  //       strokeWidth="2"
+  //       d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"
+  //     />
+  //   )
+  // },
   {
     displayName: "Business Ideas",
     route: "/business-ideas",
@@ -76,19 +76,19 @@ const routeConfig: RouteItem[] = [
         d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z"
       />
     )
-  },
-  {
-    displayName: "Metrics",
-    route: "/metrics",
-    icon: (
-      <path
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        strokeWidth="2"
-        d="M16 8v8m-4-5v5m-4-2v2m-2 4h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"
-      />
-    )
   }
+  // {
+  //   displayName: "Metrics",
+  //   route: "/metrics",
+  //   icon: (
+  //     <path
+  //       strokeLinecap="round"
+  //       strokeLinejoin="round"
+  //       strokeWidth="2"
+  //       d="M16 8v8m-4-5v5m-4-2v2m-2 4h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"
+  //     />
+  //   )
+  // }
 ];
 
 function DesktopNav() {
@@ -147,7 +147,7 @@ function DesktopNav() {
                 </p>
                 <Link href="/contact">
                   <p className="text-xs leading-4 font-medium text-gray-400 group-hover:text-gray-300 group-focus:underline transition ease-in-out duration-150">
-                    Contact Me
+                    Contact
                   </p>
                 </Link>
               </div>
@@ -256,7 +256,7 @@ function MobileNav({ sidebarOpen, setSidebarOpen }: MobileNavPropTypes) {
                 </p>
                 <Link href="/contact">
                   <p className="text-sm leading-5 font-medium text-gray-400 group-hover:text-gray-300 transition ease-in-out duration-150">
-                    Contact Me
+                    Contact
                   </p>
                 </Link>
               </div>
